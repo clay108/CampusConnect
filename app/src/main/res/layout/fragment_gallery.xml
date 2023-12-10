@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#845675"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:id="@+id/abvk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20sp"
+        android:layout_marginLeft="50sp"
+        android:text="Abhivyakti-2k23"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="395dp"
+        android:layout_height="343dp"
+        android:layout_below="@+id/abvk"
+        android:layout_marginTop="-39dp"
+        android:src="@drawable/college3" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="395dp"
+        android:layout_height="343dp"
+        android:layout_below="@+id/img1"
+        android:layout_marginTop="-173dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/college1" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="395dp"
+        android:layout_height="343dp"
+        android:layout_below="@+id/img2"
+        android:layout_marginTop="-110dp"
+        android:src="@drawable/college4" />
+
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginVertical="40sp"
+        android:layout_marginLeft="40dp"
+        android:hint="IIIT NAGPUR"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:layout_width="395dp"
+        android:layout_height="343dp"
+        android:id="@+id/img"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="-107dp"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img"
+
+        android:layout_marginVertical="05sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="Welcome to IIIT Nagpur"
+        android:fontFamily="@font/italic"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/cources"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content"
+
+        android:layout_marginVertical="05sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="Cources offered:-"
+        android:fontFamily="@font/italic"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/cources1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cources"
+
+        android:layout_marginVertical="05sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="1. Computer Science and Engeneering"
+        android:fontFamily="@font/italic"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/cources2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cources1"
+
+        android:layout_marginVertical="05sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="2.Electronics and Communication Engeneering"
+        android:fontFamily="@font/italic"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
